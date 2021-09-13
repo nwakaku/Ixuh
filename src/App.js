@@ -1,9 +1,12 @@
 import React from 'react'
+import Body from './components/Body'
+import Shop from './components/Shop'
 
 const App = () => {
   return (
     <div>
-      this is where ixuh begins
+      <Body/>
+      {/* <Shop/> */}
     </div>
   )
 }
