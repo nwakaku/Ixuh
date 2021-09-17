@@ -11,7 +11,7 @@ const NewCollection = () => {
             <div className='new__container bd-grid'>
                 <div className='new__mens'>
                     <img src={r1} alt='' className='new__mens-img'/>
-                    <h3 className='new__title'>Mens Shoes</h3>
+                    <h3 className='new__title'>Gadgets</h3>
                     <span className='new__price'>From $79.99</span>
                     <a href='#' className='button-light'>View Collection</a>
                 </div>

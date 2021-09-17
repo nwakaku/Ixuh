@@ -1,10 +1,15 @@
+import { TiSocialFacebook } from 'react-icons/ti';
+import { TiSocialTwitter } from 'react-icons/ti';
+import { TiSocialInstagram } from 'react-icons/ti';
+import { TiSocialYoutube } from 'react-icons/ti';
+
 
 const Footer = () => {
     return (
         <footer className='footer section'>
             <div className='footer__container bd-grid'>
                 <div className='footer__box'>
-                    <h3 className='footer__title'>Roby</h3>
+                    <h3 className='footer__title'>Ixuh</h3>
                     <p className='footer__description'>New Collection of shoes 2020.</p>
                 </div>
 
@@ -28,10 +33,10 @@ const Footer = () => {
                 </div>
 
                 <div className='footer__box'>
-                    <a href='#' className='footer__social'><i>Ul</i></a>
-                    <a href='#' className='footer__social'><i>Ul</i></a>
-                    <a href='#' className='footer__social'><i>Ul</i></a>
-                    <a href='#' className='footer__social'><i>Ul</i></a>
+                    <a href='#' className='footer__social'><i><TiSocialFacebook/></i></a>
+                    <a href='#' className='footer__social'><i><TiSocialTwitter/></i></a>
+                    <a href='#' className='footer__social'><i><TiSocialInstagram/></i></a>
+                    <a href='#' className='footer__social'><i><TiSocialYoutube/></i></a>
                 </div>
 
             </div>

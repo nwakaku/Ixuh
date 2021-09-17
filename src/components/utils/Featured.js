@@ -11,22 +11,25 @@ const Featured = () => {
                 <article className='sneaker'>
                     <div className='sneaker__sale'>Sale</div>
                     <img src={r2} alt='' className='sneaker__img' />
-                    <span className='sneaker__name'>Wisdom_Chris</span>
+                    <span className='sneaker__name'>iPhone 12</span>
                     <span className='sneaker__price'>$149.99</span>
+                    <small>50% OFF</small>
                     <a href='' className='button-light'>Add to Cart</a>
                 </article>
                 <article className='sneaker'>
                     <div className='sneaker__sale'>Sale</div>
                     <img src={r3} alt='' className='sneaker__img' />
-                    <span className='sneaker__name'>Wisdom_Chris</span>
+                    <span className='sneaker__name'>iPhone 11</span>
                     <span className='sneaker__price'>$149.99</span>
+                    <small>50% OFF</small>
                     <a href='' className='button-light'>Add to Cart</a>
                 </article>
                 <article className='sneaker'>
                     <div className='sneaker__sale'>Sale</div>
                     <img src={r4} alt='' className='sneaker__img' />
-                    <span className='sneaker__name'>Wisdom_Chris</span>
+                    <span className='sneaker__name'>iPhone 13</span>
                     <span className='sneaker__price'>$149.99</span>
+                    <small>70% OFF</small>
                     <a href='' className='button-light'>Add to Cart</a>
                 </article>
                 

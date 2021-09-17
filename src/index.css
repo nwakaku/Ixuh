@@ -199,7 +199,8 @@ img{
 }
 
 .home__container{
-  height: calc(100vh - var(--header-height));
+  height: calc(80vh - var(--header-height));
+  display: grid;
 }
 
 .home__sneaker{
@@ -210,8 +211,8 @@ img{
 }
 
 .home__shape{
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
   background-color: var(--dark-color);
   border-radius: 50%;
 }
@@ -219,8 +220,7 @@ img{
 .home__img{
   position: absolute;
   top: 1.5rem;
-  max-width: initial;
-  width: 275px;
+  width: fit-content;
   transform: var(--rotate-img);
 }
 
@@ -608,7 +608,7 @@ img{
   }
 
   .home__container{
-    height: 100vh;
+    height: calc(85vh - var(--header-height));
     grid-template-columns: max-content max-content;
     justify-content: center;
     align-items: center;
@@ -617,14 +617,14 @@ img{
     order: 1;
   }
   .home__shape{
-    width: 376px;
-    height: 376px;
+    width: 320px;
+    height: 320px;
   }
   .home__img{
-    width: 470px;
-    top: 3.5rem;
+    width: 380px;
+    top: 3rem;
     right: 0;
-    left: -3rem;
+    left: -2rem;
   }
 
   .newsletter__container{

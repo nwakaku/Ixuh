@@ -7,8 +7,8 @@ const Collection = () => {
             <div className='collection__container bd-grid'>
                 <div className='collection__card'>
                     <div className='collection__data'>
-                        <h3 className='collection__name'>Nike</h3>
-                        <p className='collection__description'>New collection 2020</p>
+                        <h3 className='collection__name'>Iphones</h3>
+                        <p className='collection__description'>New collection 2021</p>
                         <a href='#' className='button-light'>Buy now</a>
                     </div>
 
@@ -16,8 +16,8 @@ const Collection = () => {
                 </div>
                 <div className='collection__card'>
                     <div className='collection__data'>
-                        <h3 className='collection__name'>Nike</h3>
-                        <p className='collection__description'>New collection 2020</p>
+                        <h3 className='collection__name'>Laptops</h3>
+                        <p className='collection__description'>New collection 2021</p>
                         <a href='#' className='button-light'>Buy now</a>
                     </div>
 
