@@ -1,5 +1,5 @@
-import r5 from '../../images/r5.jpg'
-import r6 from '../../images/r6.jpg'
+import iphone from '../../image/iphone11.jpg'
+import laptop from '../../image/laptop1.jpg'
 
 const Collection = () => {
     return (
@@ -12,7 +12,7 @@ const Collection = () => {
                         <a href='#' className='button-light'>Buy now</a>
                     </div>
 
-                    <img src={r5} alt='' className='collection__img'/>
+                    <img src={iphone} alt='' className='collection__img'/>
                 </div>
                 <div className='collection__card'>
                     <div className='collection__data'>
@@ -21,7 +21,7 @@ const Collection = () => {
                         <a href='#' className='button-light'>Buy now</a>
                     </div>
 
-                    <img src={r6} alt='' className='collection__img'/>
+                    <img src={laptop} alt='' className='collection__img'/>
                 </div>
             </div>
         </section>

@@ -1,6 +1,6 @@
-import r2 from '../../images/r2.jpg';
-import r3 from '../../images/r3.jpg';
-import r4 from '../../images/r4.jpg';
+import i1 from '../../image/iphone8.jpg';
+import i2 from '../../image/iphone11.jpg';
+import i3 from '../../image/iphone12.jpg';
 
 const Featured = () => {
     return (
@@ -10,7 +10,7 @@ const Featured = () => {
             <div className='featured__container bd-grid'>
                 <article className='sneaker'>
                     <div className='sneaker__sale'>Sale</div>
-                    <img src={r2} alt='' className='sneaker__img' />
+                    <img src={i1} alt='' className='sneaker__img' />
                     <span className='sneaker__name'>iPhone 12</span>
                     <span className='sneaker__price'>$149.99</span>
                     <small>50% OFF</small>
@@ -18,7 +18,7 @@ const Featured = () => {
                 </article>
                 <article className='sneaker'>
                     <div className='sneaker__sale'>Sale</div>
-                    <img src={r3} alt='' className='sneaker__img' />
+                    <img src={i2} alt='' className='sneaker__img' />
                     <span className='sneaker__name'>iPhone 11</span>
                     <span className='sneaker__price'>$149.99</span>
                     <small>50% OFF</small>
@@ -26,7 +26,7 @@ const Featured = () => {
                 </article>
                 <article className='sneaker'>
                     <div className='sneaker__sale'>Sale</div>
-                    <img src={r4} alt='' className='sneaker__img' />
+                    <img src={i3} alt='' className='sneaker__img' />
                     <span className='sneaker__name'>iPhone 13</span>
                     <span className='sneaker__price'>$149.99</span>
                     <small>70% OFF</small>
