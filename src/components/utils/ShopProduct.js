@@ -1,11 +1,11 @@
-import r1 from '../../images/r1.jpg';
-import r2 from '../../images/r2.jpg';
-import r3 from '../../images/r3.jpg';
-import r4 from '../../images/r4.jpg';
-import r5 from '../../images/r5.jpg';
-import r6 from '../../images/r6.jpg';
-import r7 from '../../images/r7.jpeg';
-import r8 from '../../images/r8.jpeg';
+import r1 from '../../image/iphone8.jpg';
+import r2 from '../../image/iphone11.jpg';
+import r3 from '../../image/iphone12.jpg';
+import r4 from '../../image/laptop1.jpg';
+import r5 from '../../image/laptop3.jpg';
+import r6 from '../../image/iphone8.jpg';
+import r7 from '../../image/iphone11.jpg';
+import r8 from '../../image/laptop3.jpg';
 
 const Featured = () => {
     return (

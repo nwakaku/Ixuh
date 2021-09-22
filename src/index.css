@@ -462,7 +462,8 @@ img{
 }
 
 .new__sneaker-img{
-  width: 220px;
+  position: absolute;
+  width: 200px;
 }
 
 .new__sneaker-overlay{
@@ -657,6 +658,14 @@ img{
   .collection__container{
     grid-template-columns: repeat(2, 415px);
   }
+
+  .collection__img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+  }
+  
 
   .new__container{
     grid-template-columns: max-content 1fr;

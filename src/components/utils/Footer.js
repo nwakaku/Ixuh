@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='footer__container bd-grid'>
                 <div className='footer__box'>
                     <h3 className='footer__title'>Ixuh</h3>
-                    <p className='footer__description'>New Collection of shoes 2020.</p>
+                    <p className='footer__description'>New Collection of Gadgets 2021.</p>
                 </div>
 
                 <div className='footer__box'>
@@ -18,8 +18,8 @@ const Footer = () => {
                     <ul>
                         <li><a href='#home' className='footer__link'>Home</a></li>
                         <li><a href='#featured' className='footer__link'>Featured</a></li>
-                        <li><a href='#women' className='footer__link'>Women</a></li>
-                        <li><a href='#new' className='footer__link'>New</a></li>
+                        <li><a href='#women' className='footer__link'>GiveAways</a></li>
+                        <li><a href='#new' className='footer__link'>News</a></li>
                     </ul>
                 </div>
 

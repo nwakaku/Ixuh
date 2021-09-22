@@ -1,7 +1,7 @@
-import r1 from '../../images/r1.jpg'
-import r2 from '../../images/r2.jpg'
-import r3 from '../../images/r3.jpg'
-import r4 from '../../images/r4.jpg'
+import r1 from '../../image/laptop3.jpg'
+import r2 from '../../image/laptop1.jpg'
+import r3 from '../../image/pad1.jpg'
+import r4 from '../../image/iphone8.jpg'
 
 const NewCollection = () => {
     return (
