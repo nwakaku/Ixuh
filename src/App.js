@@ -10,21 +10,18 @@ import Shop from './components/Shop'
 
 const App = () => {
   return (
+    <Router>
     <div>
-      <Body/>
+      <Switch>
+        <Route exact path="/">
+          <Body/>
+        </Route>
+        <Route path="/shop">
+          <Shop/>
+        </Route>
+      </Switch>
     </div>
-  //   <Router>
-  //   <div>
-  //     <Switch>
-  //       <Route exact path="/">
-  //         <Body/>
-  //       </Route>
-  //       <Route path="/shop">
-  //         <Shop/>
-  //       </Route>
-  //     </Switch>
-  //   </div>
-  // </Router>
+  </Router>
   )
 }
 
