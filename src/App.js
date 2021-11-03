@@ -16,9 +16,6 @@ const App = () => {
         <Route exact path="/ixuh">
           <Body/>
         </Route>
-        <Route path="/shop">
-          <Shop/>
-        </Route>
       </Switch>
     </div>
   </Router>
