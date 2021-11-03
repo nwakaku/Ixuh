@@ -11,7 +11,7 @@ import Shop from './components/Shop'
 const App = () => {
   return (
     <div>
-      hello world
+      <Body/>
     </div>
   //   <Router>
   //   <div>
