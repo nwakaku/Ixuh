@@ -13,7 +13,7 @@ const App = () => {
     <Router>
     <div>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/ixuh">
           <Body/>
         </Route>
         <Route path="/shop">
