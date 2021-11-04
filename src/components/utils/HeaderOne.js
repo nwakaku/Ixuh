@@ -18,7 +18,7 @@ const HeaderOne = () => {
                     <ul className='nav__list' onClick={() => setOpen(!open)}>
                         <li className='nav__item'><NavLink exact to='/' activeClassName='nav__link active'>Home</NavLink></li>
                         <li className='nav__item'><NavLink to='/#' activeClassName='nav__link'>Featured</NavLink></li>
-                        <li className='nav__item'><NavLink to='/#' activeClassName='nav__link'>Women</NavLink></li>
+                        <li className='nav__item'><NavLink to='/gallery' activeClassName='nav__link active'>Gallery</NavLink></li>
                         <li className='nav__item'><NavLink to='/#' activeClassName='nav__link'>New</NavLink></li>
                         <li className='nav__item'><NavLink to='/shop' activeClassName='nav__link active'>Shop</NavLink></li>
                     </ul>

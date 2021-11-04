@@ -5,8 +5,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Body from './components/Body'
-import Shop from './components/Shop'
+import Body from './components/pages/Body'
+import Gallery from "./components/pages/Gallery";
+import Shop from './components/pages/Shop'
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
         </Route>
         <Route path="/shop">
           <Shop/>
+        </Route>
+        <Route path="/gallery">
+          <Gallery/>
         </Route>
       </Switch>
     </div>
