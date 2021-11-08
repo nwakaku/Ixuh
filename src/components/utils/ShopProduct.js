@@ -1,11 +1,13 @@
-import r1 from '../../image/iphone8.jpg';
-import r2 from '../../image/iphone11.jpg';
-import r3 from '../../image/iphone12.jpg';
-import r4 from '../../image/laptop1.jpg';
-import r5 from '../../image/laptop3.jpg';
-import r6 from '../../image/iphone8.jpg';
-import r7 from '../../image/iphone11.jpg';
-import r8 from '../../image/laptop3.jpg';
+import a from '../../iPhone/iphoneX.jpg';
+import b from '../../iPhone/iphone13.jpg';
+import c from '../../iPhone/iphone11.jpg';
+import d from '../../iPhone/iphone12.jpg';
+import e from '../../iPhone/a.jpg';
+import f from '../../iPhone/b.jpg';
+import g from '../../iPhone/c.jpg';
+import h from '../../iPhone/d.jpg';
+
+
 
 const Featured = () => {
     return (
@@ -15,57 +17,57 @@ const Featured = () => {
             <div className='featured__container bd-grid'>
 
                 <article className='sneaker'>
-                    <img src={r1} alt='' className='sneaker__img' />
-                    <span className='sneaker__name'>Wisdom_Chris</span>
+                    <img src={a} alt='' className='sneaker__img' />
+                    <span className='sneaker__name'>iPhone X</span>
                     <span className='sneaker__price'>$149.99</span>
                     <a href='' className='button-light'>Add to Cart</a>
                 </article>
 
                 <article className='sneaker'>
-                    <img src={r2} alt='' className='sneaker__img' />
-                    <span className='sneaker__name'>Wisdom_Chris</span>
+                    <img src={b} alt='' className='sneaker__img' />
+                    <span className='sneaker__name'>iPhone 11</span>
                     <span className='sneaker__price'>$149.99</span>
                     <a href='' className='button-light'>Add to Cart</a>
                 </article>
 
                 <article className='sneaker'>
-                    <img src={r3} alt='' className='sneaker__img' />
-                    <span className='sneaker__name'>Wisdom_Chris</span>
+                    <img src={d} alt='' className='sneaker__img' />
+                    <span className='sneaker__name'>iPhone 12</span>
                     <span className='sneaker__price'>$149.99</span>
                     <a href='' className='button-light'>Add to Cart</a>
                 </article>
 
                 <article className='sneaker'>
-                    <img src={r4} alt='' className='sneaker__img' />
-                    <span className='sneaker__name'>Wisdom_Chris</span>
+                    <img src={c} alt='' className='sneaker__img' />
+                    <span className='sneaker__name'>iPhone 8s +</span>
                     <span className='sneaker__price'>$149.99</span>
                     <a href='' className='button-light'>Add to Cart</a>
                 </article>
 
                 <article className='sneaker'>
-                    <img src={r5} alt='' className='sneaker__img' />
-                    <span className='sneaker__name'>Wisdom_Chris</span>
+                    <img src={e} alt='' className='sneaker__img' />
+                    <span className='sneaker__name'>iPhone 7</span>
                     <span className='sneaker__price'>$149.99</span>
                     <a href='' className='button-light'>Add to Cart</a>
                 </article>
 
                 <article className='sneaker'>
-                    <img src={r6} alt='' className='sneaker__img' />
-                    <span className='sneaker__name'>Wisdom_Chris</span>
+                    <img src={f} alt='' className='sneaker__img' />
+                    <span className='sneaker__name'>iPhone 6</span>
                     <span className='sneaker__price'>$149.99</span>
                     <a href='' className='button-light'>Add to Cart</a>
                 </article>
 
                 <article className='sneaker'>
-                    <img src={r7} alt='' className='sneaker__img' />
-                    <span className='sneaker__name'>Wisdom_Chris</span>
+                    <img src={g} alt='' className='sneaker__img' />
+                    <span className='sneaker__name'>iPhone 4</span>
                     <span className='sneaker__price'>$149.99</span>
                     <a href='' className='button-light'>Add to Cart</a>
                 </article>
 
                 <article className='sneaker'>
-                    <img src={r8} alt='' className='sneaker__img' />
-                    <span className='sneaker__name'>Wisdom_Chris</span>
+                    <img src={a} alt='' className='sneaker__img' />
+                    <span className='sneaker__name'>iPhone 5</span>
                     <span className='sneaker__price'>$149.99</span>
                     <a href='' className='button-light'>Add to Cart</a>
                 </article>

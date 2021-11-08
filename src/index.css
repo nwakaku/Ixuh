@@ -169,6 +169,12 @@ img{
   cursor: pointer;
 }
 
+.signup{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+
 .show{
   left:0;
 }
@@ -561,6 +567,7 @@ img{
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 576px){
+  
   .collection__container{
     grid-template-columns: 415px;
   }

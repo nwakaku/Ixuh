@@ -1,6 +1,6 @@
-import i1 from '../../image/iphone8.jpg';
-import i2 from '../../image/iphone11.jpg';
-import i3 from '../../image/iphone12.jpg';
+import i1 from '../../iPhone/iphone11.jpg';
+import i2 from '../../iPhone/iphone12.jpg';
+import i3 from '../../iPhone/iphone13.jpg';
 
 const Featured = () => {
     return (
