@@ -1,7 +1,8 @@
-import r1 from '../../image/laptop3.jpg'
-import r2 from '../../image/laptop1.jpg'
-import r3 from '../../image/pad1.jpg'
+import r1 from '../../image/laptop3.png'
+import r2 from '../../image/laptop1.png'
+import r3 from '../../image/pad1.png'
 import r4 from '../../image/iphone8.jpg'
+import a from '../../image/londonused.png'
 
 const NewCollection = () => {
     return (
@@ -10,7 +11,7 @@ const NewCollection = () => {
 
             <div className='new__container bd-grid'>
                 <div className='new__mens'>
-                    <img src={r1} alt='' className='new__mens-img'/>
+                    <img src={a} alt='' className='new__mens-img'/>
                     <h3 className='new__title'>Gadgets</h3>
                     <span className='new__price'>From $79.99</span>
                     <a href='#' className='button-light'>View Collection</a>

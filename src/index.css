@@ -64,7 +64,7 @@ html{
 }
 
 body{
-  margin: var(--header-height) 0 0 0;
+  /* margin: var(--header-height) 0 0 0; */
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
@@ -161,7 +161,14 @@ img{
 }
 
 .nav__logo{
-  font-weight: 900;
+  display: flex;
+}
+
+.nav__logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .nav__toggle, .nav__shop{
@@ -468,11 +475,15 @@ img{
   overflow: hidden;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 15rem;
 }
 
-.new__sneaker-img{
+.new__sneaker img{
   position: absolute;
-  width: 200px;
+  width: 100%;
+  
+  
 }
 
 .new__sneaker-overlay{

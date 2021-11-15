@@ -12,8 +12,6 @@ import { useAuthState } from "react-firebase-hooks/auth";
 
 
 const Login = () => {
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
     const [user, loading, error] = useAuthState(auth);
     const history = useHistory();
 
@@ -22,7 +20,7 @@ const Login = () => {
           // maybe trigger a loading screen
           return;
         }
-        if (user) history.replace("/");
+        if (user) history.replace("/admin");
       }, [user, loading]);
 
 
@@ -33,8 +31,8 @@ const initialValues = {
 
 const onSubmit= (values, { setSubmitting }) => {
     setSubmitting(false);
-    signInWithEmailAndPassword(values)
-    history.push('/')
+    signInWithEmailAndPassword(values.email, values.password)
+    console.log(values)
   }
       
   

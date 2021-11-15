@@ -26,14 +26,15 @@ const initialValues = {
     comfirmPassword: ''
 }
 
-const onSubmit= (values, { setSubmitting }) => {
+const handleSubmit= (values, { setSubmitting }) => {
    if(!values.name) alert("please enter name")
-   registerWithEmailAndPassword(values)
+   registerWithEmailAndPassword(values.name, values.email, values.password)
+   console.log(values)
   };
 
   useEffect(() => {
     if (loading) return;
-    if (user) history.replace("/");
+    if (user) history.replace("/dashboard");
   }, [user, loading]);
       
 
@@ -47,7 +48,7 @@ const validationSchema = Yup.object({
         <Formik 
             initialValues={initialValues}
             validationSchema={validationSchema}
-            onSubmit={onSubmit}>
+            onSubmit={handleSubmit}>
             <div className='body'>
                 <div className="form">
                     <Form>
@@ -57,12 +58,11 @@ const validationSchema = Yup.object({
                                 </div>
                                 <div className="form-group">
                                 <Field
-                                    type='text'
                                     placeholder='Username' 
-                                    id='displayName'
-                                    name='displayName'
+                                    id='name'
+                                    name='name'
                                     className="form-input"/>
-                                <ErrorMessage name='displayName' component={TextError}/>
+                                <ErrorMessage name='name' component={TextError}/>
                             </div>
                             
                             <div className='form-group'>
@@ -99,7 +99,7 @@ const validationSchema = Yup.object({
                             </div>
 
                             <div className="form-group">
-                            <button className="form-btn" disabled={loading}  type='submit'>Register</button>
+                            <button className="form-btn" type='submit'>Register</button>
                             </div>
 
                             <span className="form-delimiter">
@@ -112,7 +112,8 @@ const validationSchema = Yup.object({
                                 <a href="#" className="form-social-item tw">
                                 <FaTwitter/>
                                 </a>
-                                <a href="#" className="form-social-item gg">
+                                <a href="#" className="form-social-item gg"
+                                onClick={signInWithGoogle}>
                                 <FaGooglePlus/>
                                 </a>
                             </div>

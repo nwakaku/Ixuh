@@ -29,7 +29,7 @@
     background-position: center;
     user-select: none;
     overflow-y: scroll;
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fiphonephotographyschool.com%2Fiphone-7-camera-features%2F&psig=AOvVaw0NSJ7EWZaK4AWuviRD7wOf&ust=1636461933804000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJj_-5bmiPQCFQAAAAAdAAAAABAD);
+    background-image: url(https://i.pinimg.com/564x/d8/8a/a2/d88aa21664f3cc5d279e70c859f7348b.jpg);
 }
 
 .form {
@@ -45,12 +45,9 @@
 }
 
 .form-logo h2{
-    color: red;
-    font-size: 2.7rem;
-    font-weight: 900;
-    padding: 0.5rem;
-    margin-top: -4rem;
     text-shadow: 0.5rem 0.5rem 1rem #b8a1a1;
+    color: honeydew;
+    margin: 2rem 0;
 }
 
 

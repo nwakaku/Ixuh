@@ -1,5 +1,5 @@
 import iphone from '../../image/iphone11.jpg'
-import laptop from '../../image/laptop1.jpg'
+import laptop from '../../image/laptop1.png'
 
 const Collection = () => {
     return (

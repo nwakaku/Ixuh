@@ -24,7 +24,7 @@ const Home = () => {
                 <div className='home__data'>
                     <span className='home__new'>Latest Gossip</span>
                     <h1 className='home__title'>IXUH BOOST <br/> Mac_Wares </h1>
-                    <p className='home__description'>Exchange your X's to Gold</p>
+                    <p className='home__description'>Exchange your Gold to Love</p>
                     <a href='https://www.instagram.com/ixuh_online/' className='button'>
                         Contact Us <i><FaInstagram/></i></a>
                 </div>
@@ -42,7 +42,7 @@ const Home = () => {
                 <div className='home__data'>
                     <span className='home__new'>Latest Gossip</span>
                     <h1 className='home__title'>I_ACCESSORIES <br/> SPLY -350 </h1>
-                    <p className='home__description'>Exchange your X's to Gold</p>
+                    <p className='home__description'>Apple's Brings Love</p>
                     <a href='https://web.facebook.com/ixuhCommerce' className='button'>
                         Contact Us <i><FaFacebookF/></i></a>
                 </div>
@@ -60,7 +60,7 @@ const Home = () => {
                 <div className='home__data'>
                     <span className='home__new'>Latest Gossip</span>
                     <h1 className='home__title'>YEEZY BOOST <br/> SPLY -350 </h1>
-                    <p className='home__description'>Exchange your X's to Gold</p>
+                    <p className='home__description'>Not Only Technology Love too</p>
                     <a href='https://www.instagram.com/ixuh_online/' className='button'>Contact Us</a>
                 </div>
             </div>

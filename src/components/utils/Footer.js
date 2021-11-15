@@ -2,6 +2,7 @@ import { TiSocialFacebook } from 'react-icons/ti';
 import { TiSocialTwitter } from 'react-icons/ti';
 import { TiSocialInstagram } from 'react-icons/ti';
 import { TiSocialYoutube } from 'react-icons/ti';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -16,27 +17,27 @@ const Footer = () => {
                 <div className='footer__box'>
                     <h3 className='footer__title'>EXPLORE</h3>
                     <ul>
-                        <li><a href='#home' className='footer__link'>Home</a></li>
-                        <li><a href='#featured' className='footer__link'>Featured</a></li>
-                        <li><a href='#women' className='footer__link'>GiveAways</a></li>
-                        <li><a href='#new' className='footer__link'>News</a></li>
+                        <li><Link  to='/' className='footer__link'>Home</Link ></li>
+                        <li><Link  to='/gallery' className='footer__link'>Gallery</Link ></li>
+                        <li><Link  to='/price' className='footer__link'>PriceAlert</Link ></li>
+                        <li><Link  to='/shop' className='footer__link'>Shop</Link ></li>
                     </ul>
                 </div>
 
                 <div className='footer__box'>
                     <h3 className='footer__title'>SUPPORT</h3>
                     <ul>
-                        <li><a href='#' className='footer__link'>Product Help</a></li>
-                        <li><a href='#' className='footer__link'>Customer Care</a></li>
-                        <li><a href='#' className='footer__link'>Authorized service</a></li>
+                        <li><Link  to='/' className='footer__link'>Product Help</Link ></li>
+                        <li><Link  to='/' className='footer__link'>Customer Care</Link ></li>
+                        <li><Link  to='/' className='footer__link'>Authorized service</Link ></li>
                     </ul>
                 </div>
 
                 <div className='footer__box'>
-                    <a href='#' className='footer__social'><i><TiSocialFacebook/></i></a>
-                    <a href='#' className='footer__social'><i><TiSocialTwitter/></i></a>
-                    <a href='#' className='footer__social'><i><TiSocialInstagram/></i></a>
-                    <a href='#' className='footer__social'><i><TiSocialYoutube/></i></a>
+                    <Link  to='/' className='footer__social'><i><TiSocialFacebook/></i></Link >
+                    <Link  to='/' className='footer__social'><i><TiSocialTwitter/></i></Link >
+                    <Link  to='/' className='footer__social'><i><TiSocialInstagram/></i></Link >
+                    <Link  to='/' className='footer__social'><i><TiSocialYoutube/></i></Link >
                 </div>
 
             </div>

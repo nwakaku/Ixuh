@@ -1,6 +1,6 @@
-import r6 from '../../image/laptop1.jpg'
-import r7 from '../../image/laptop3.jpg'
-import r8 from '../../image/pad1.jpg'
+import r6 from '../../image/laptop1.png'
+import r7 from '../../image/laptop3.png'
+import r8 from '../../image/pad1.png'
 
 const Category1 = () => {
     return (

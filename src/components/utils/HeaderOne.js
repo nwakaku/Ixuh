@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FiShoppingBag } from 'react-icons/fi';
 import { AiOutlineBars } from 'react-icons/ai';
 import { CgProfile } from 'react-icons/cg'
+import logo from '../../ixuhs/hd.png';
 
 const HeaderOne = () => {
     const [open, setOpen] = useState(true)
@@ -13,7 +14,9 @@ const HeaderOne = () => {
                     <i><AiOutlineBars/></i>
                 </div>
 
-                <a href='#' className='nav__logo'>Ixuh_online</a>
+                <a href='#' className='nav__logo'>
+                    <img src={logo} />
+                </a>
 
                 <div className={`${open ? 'nav__menu' : 'nav__menu show'}`}>
                     <ul className='nav__list' onClick={() => setOpen(!open)}>

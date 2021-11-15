@@ -2,7 +2,9 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth"
 import "firebase/compat/firestore"
 import { getAnalytics } from "firebase/analytics";
-import 'firebase/auth'
+import 'firebase/auth';
+import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
+import { collection, getDocs } from "firebase/firestore";
 
 
 const firebaseConfig = {
@@ -97,4 +99,10 @@ const signInWithEmailAndPassword = async (email, password) => {
     registerWithEmailAndPassword,
     sendPasswordResetEmail,
     logout,
+    getStorage,
+    ref,
+    uploadBytesResumable,
+    getDownloadURL,
+    collection,
+    getDocs
   };

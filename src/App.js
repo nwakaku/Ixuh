@@ -9,8 +9,12 @@ import Body from './components/pages/Body'
 import Gallery from "./components/pages/Gallery";
 import PriceAlert from "./components/pages/PriceAlert";
 import Shop from './components/pages/Shop'
+import Index from "./components/utils/Admin/Index";
 import Login from './components/utils/authentication/Login'
 import Signup from "./components/utils/authentication/Signup";
+import Dashboard from "./components/utils/Dashboard";
+import AddProducts from "./components/utils/Admin/AddProducts";
+
 
 const App = () => {
   return (
@@ -34,6 +38,15 @@ const App = () => {
         </Route>
         <Route path="/signup">
           <Signup/>
+        </Route>
+        <Route path="/dashboard">
+          <Dashboard/>
+        </Route>
+        <Route path="/admin">
+          <Index/>
+        </Route>
+        <Route path="/addproduct">
+          <AddProducts/>
         </Route>
       </Switch>
     </div>
